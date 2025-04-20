@@ -1,0 +1,44 @@
+.nav-link{
+    color: rgb(224, 227, 230);
+}
+p1{
+    text-decoration: none;
+}
+
+.bg{
+    background-image: url('../image/bg.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+     margin-left: auto;
+     justify-content: center;
+     padding: 10px;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+ 
+.typing-text {
+    border-right: 3px solid #00ffcc;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 5s steps(40, end) forwards, blink 0.7s infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 23ch; } 
+  }
+
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  .skill-bg{
+    background-color: aquamarine;
+    color: black;
+  }
+  #clock{
+  
+    margin-left: 90px;
+  }
